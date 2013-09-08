@@ -1,0 +1,24 @@
+h2                              { color: #fa9f00; font: 30px Helvetica, Sans-Serif; margin: 0 0 10px 0; }
+
+#name-area                      { color: black; font: bold 15px "Lucida Grande", Sans-Serif; text-align: left; }   
+
+#chat-wrap                      { border: 1px solid #eee; margin: 0 0 15px 0; }
+#user-area                      { width: 432px; height: 96px; overflow: auto; border: 1px solid #666; background: white; }
+.user-box                       { height: 24px; width: 208px; float: left; border: 1px solid #666; padding: 3px; text-align: center;
+                                background: -moz-linear-gradient(top,  #aaa,  #ddd) no-repeat;
+                                background: -webkit-gradient(linear, center top, center bottom, from(#aaa), to(#ddd)) no-repeat;}
+/*
+.user-box:hover{
+                                background: -moz-linear-gradient(top,  #ddd,  #aaa) no-repeat; cursor: pointer;
+                                background: -webkit-gradient(linear, center top, center bottom, from(#ddd), to(#aaa)) no-repeat;}
+.user-box:active {
+                                background: -moz-linear-gradient(top,  #aaa,  #ddd) no-repeat;
+                                background: -webkit-gradient(linear, center top, center bottom, from(#aaa), to(#ddd)) no-repeat;}
+*/
+#chat-area                      { margin: 2px; height: 200px; width: 60%; overflow: auto; border: 1px solid #666; padding: 10px; background: white; margin-top: 15px; float: left;}
+#action-area                    { text-align: center; margin: 2px; height: 200px; width: 28%; border: 1px solid #666; float:left; margin-top: 15px; padding: 10px;}
+#display                        { margin: 20px auto; background: #333; width: 100px; padding: 20px auto;
+color: white; font: bold 45px "Lucida Grande", Sans-Serif;}
+#chat-area span                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area p                    { text-align: left; color: black;}
+#sendie                         { border: 3px solid #999; width: 100%;  padding: 10px; font: 12px "Lucida Grande", Sans-Serif; float: right; }
